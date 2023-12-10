@@ -1,0 +1,401 @@
+body {
+    background-color: rgb(43, 42, 40);
+    scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #252525;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 144, 130);
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("wallpaper/battle-fight.jpg");
+    background-color: rgba(255, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    /* Add the blur effect */
+    filter: hue-rotate(10px);
+
+    /* Full height */
+    height: 300px;
+    border-top: 2px solid rgb(255, 144, 130);
+    border-bottom: 2px solid rgb(255, 144, 130);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.turk-dynansty {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.3);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.title-dynasty {
+    font-size: 100px;
+    color: darkgrey;
+    margin-bottom: 50px;
+}
+
+.ghajar {
+    background-image: url(wallpaper/ghjar-flag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.kharazm {
+    background-image: url(wallpaper/kharazm-flag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.osman {
+    background-image: url(wallpaper/Ottoman_flag.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.safavid {
+    background-image: url(wallpaper/Safavid_Flag.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.timur {
+    background-image: url(wallpaper/timur-flag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.gokturk {
+    background-image: url(wallpaper/Flag_of_the_Göktürks.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 90px;
+    background-color: black;
+    height: 90px;
+    border: 2px solid rgb(255, 144, 130);
+    transition: all ease 1s;
+}
+
+.circle:hover {
+    transform: rotate(1turn)scale(1.5);
+
+}
+
+.container-circle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.saljuk {
+    background-image: url(wallpaper/saljuk-flag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h6 {
+    color: gray;
+}
+
+.border-turkic {
+    width: 80%;
+    border-radius: 15px;
+    border-left: 2px solid rgb(255, 144, 130);
+    border-right: 2px solid rgb(255, 144, 130);
+}
+
+.turkic-country {
+    background: linear-gradient(#222121, rgba(255, 0, 0, 0.3));
+    padding: 25px 0;
+}
+
+.title-turkic-country {
+    text-align: center;
+}
+
+.title-country {
+    font-size: 100px;
+    color: darkgray;
+}
+
+.container-flag {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container-flag>div {
+    text-align: center;
+
+}
+
+.flag {
+    width: 200px;
+    border-radius: 10px;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all ease 2s;
+    border: 1px solid rgb(255, 144, 130);
+    box-shadow: 0 4px 8px 0 rgba(255, 183, 183, 0.2), 0 6px 20px 0 rgba(255, 180, 180, 0.19);
+}
+
+.uzbekistan {
+    background-image: url(wallpaper/uzbekistan-flag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.turkey {
+    background-image: url(wallpaper/turkey-flag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.azerbyjan {
+    background-image: url(wallpaper/azerbyjan-flag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.kyrghistan {
+    background-image: url(wallpaper/Flag-of-Kyrgyzstan.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.turkmenstan {
+    background-image: url(wallpaper/tukeminstan_flag.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.QashQai {
+    background-image: url(wallpaper/Qashqai_flag.svg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.flag:hover {
+    transform: scale(1.2) perspective(1000px) rotate3d(1, 2, 3, 359.5deg);
+
+    background-color: rgba(255, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+
+.a {
+    overflow: hidden;
+}
+
+.turkic-important-people {
+
+    background: linear-gradient(rgba(255, 0, 0, 0.3), #222121);
+    padding: 30px;
+}
+
+.card-profile {
+    background-color: rgb(255, 144, 130);
+    transition: all ease 1s;
+    box-shadow: 0 4px 8px 0 rgba(255, 251, 251, 0.2), 0 6px 20px 0 rgba(56, 54, 54, 0.19);
+}
+
+.card-profile:hover {
+    transform: translatey(5px);
+}
+
+.history {
+    background: linear-gradient(#222121, rgba(255, 0, 0, 0.3));
+    text-align: center;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 80px;
+    color: darkgrey;
+}
+
+.history>h3 {
+    font-size: 100px;
+    color: darkgray;
+    margin-bottom: 40px;
+}
+
+.title-history {
+    width: 80%;
+    padding: 0 10px;
+    border-radius: 15px;
+    border-left: 2px solid rgb(255, 144, 130);
+    border-right: 2px solid rgb(255, 144, 130);
+}
+
+.title-history>p {
+    color: whitesmoke;
+}
+
+.img-geo {
+    filter: hue-rotate(-180deg);
+    transition: all ease 0.5s;
+}
+
+.img-geo:hover {
+    filter: hue-rotate(0);
+}
+
+footer p {
+    color: wheat;
+}
+
+footer {
+    overflow: hidden;
+}
+
+.img-car {
+    height: 400px;
+    width: 450px;
+    margin: auto;
+}
+
+#demo {
+    width: 700px;
+    display: flex;
+
+}
+
+.m-carou {
+    background: linear-gradient(rgba(255, 0, 0, 0.3), #330606);
+    padding: 25px 0;
+}
+.bt-bor{
+    border: none;
+    background-color: transparent;
+}
+.carou {
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: 3px solid rgb(255, 144, 130);
+    border-right: 3px solid rgb(255, 144, 130);
+    width: 800px;
+}
+
+header {
+    background-color: rgba(255, 0, 0, 0.3);
+    padding: 17px 0px;
+    text-align: center;
+    color: wheat;
+    font-size: 27px;
+}
+video{
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+
+    header {
+        font-size: 15px;
+    }
+
+    .title-dynasty {
+        font-size: 40px;
+    }
+
+    .container-circle {
+        gap: 20px;
+    }
+
+    .title-country {
+        font-size: 50px;
+    }
+
+    h2>a {
+        font-size: 20px;
+    }
+
+    .container-flag>div {
+        width: 80%;
+        border-radius: 15px;
+        border-left: 2px solid rgb(255, 144, 130);
+        border-right: 2px solid rgb(255, 144, 130);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .history>h3 {
+        font-size: 30px;
+    }
+
+    .img-geo {
+        width: 95%;
+    }
+
+    .title-history {
+        width: 95%;
+    }
+
+    .bg-image {
+        height: 150px;
+    }
+
+    .carou {
+        width: 95%;
+        border: none;
+    }
+
+    .m-carou {
+        overflow: hidden;
+    }
+
+    #demo {
+        width: 95%;
+    }
+
+    .m-carou h2 {
+        font-size: 30px;
+    }
+
+    .img-car {
+        width: 100%;
+         
+    }
+
+}

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main_turk_site.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main-turk-site.js"></script>
+    <link rel="icon" href="wallpaper/logo.jpg">
+    <title>turk</title>
+    <style>
+    </style>
+</head>
+
+<body>
+
+
+    <header><q>Turkic people have a proud history</q></header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container-fluid">
+            <img class="navbar-brand icon-img" src="wallpaper/icon.png" width="60px" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#history">history</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#culture">culture</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#geo">Geography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#turkic-flag">Turkic_Flag</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">turkic
+                            dynasty</a>
+                        <ul class="dropdown-menu bg-danger">
+                            <li><a class="dropdown-item" href="#">saljuk</a></li>
+                            <li><a class="dropdown-item" href="#">timured</a></li>
+                            <li><a class="dropdown-item" href="#">ottman</a></li>
+                            <li><a class="dropdown-item" href="#">gokturk</a></li>
+                            <li><a class="dropdown-item" href="#">safavid</a></li>
+                            <li><a class="dropdown-item" href="#">ghajar</a></li>
+                            <li><a class="dropdown-item" href="#">kharazm</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">video about
+                            turk
+                        </a>
+
+                        <ul class="dropdown-menu bg-danger">
+
+                            <li><a class="dropdown-item" href="#">
+                                    <button type="" class=" bt-bor" data-bs-toggle="modal" onclick="chosevideo(0)"
+                                        data-bs-target="#myModal">
+                                        famouse people speach about turkic
+                                    </button>
+
+                                </a></li>
+                            <li><a class="dropdown-item" href="#"> <button type="" onclick="chosevideo(1)"
+                                        class=" bt-bor" data-bs-toggle="modal" data-bs-target="#myModal">
+                                        about sohrab kan
+                                    </button></a></li>
+                            <li><a class="dropdown-item" href="#"><button type="" onclick="chosevideo(2)"
+                                        class=" bt-bor" data-bs-toggle="modal" data-bs-target="#myModal">
+                                        war
+                                    </button></a></li>
+                            <li><a class="dropdown-item" href="#"><button type="" onclick="chosevideo(3)"
+                                        class=" bt-bor" data-bs-toggle="modal" data-bs-target="#myModal">
+                                        three awar russia
+                                    </button></a></li>
+                            <li><a class="dropdown-item" href="#"><button type="" onclick="chosevideo(4)"
+                                        class=" bt-bor" data-bs-toggle="modal" data-bs-target="#myModal">
+                                        about turan
+                                    </button></a></li>
+                            <li><a class="dropdown-item" href="#"><button type="" onclick="chosevideo(5)"
+                                        class=" bt-bor" data-bs-toggle="modal" data-bs-target="#myModal">
+                                        The Sumerians are the ancestors of the Turks
+                                    </button></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">proud for turkic</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <video src="" class="rounded" controls id="v"></video>
+                </div>
+
+                <!-- Modal footer -->
+
+            </div>
+        </div>
+    </div>
+    <div class="bg-image"></div>
+    <div class="turkic-country">
+        <div class="title-turkic-country">
+            <a href="#" name="turkic-flag">
+                <h2 class="title-country">Turkic Flag</h2>
+            </a>
+        </div>
+        <div class="container-flag">
+            <div>
+
+                <a href="#" onclick="chosehtml(1)">
+                    <div class="flag uzbekistan"></div>
+                </a>
+                <h6>uzbekistan</h6>
+            </div>
+            <div>
+                <a href="#" onclick="chosehtml(2)">
+                    <div class="flag QashQai"></div>
+                </a>
+                <h6>ghashghaie</h6>
+            </div>
+            <div>
+                <a href="#" onclick="chosehtml(3)">
+                    <div class="flag turkmenstan"></div>
+                </a>
+                <h6>turkmenstan</h6>
+
+            </div>
+            <div>
+                <a href="#" onclick="chosehtml(4)">
+                    <div class="flag kyrghistan"></div>
+                </a>
+                <h6>kyrghistan</h6>
+
+            </div>
+            <div>
+                <a href="#" onclick="chosehtml(5)">
+                    <div class="flag azerbyjan"></div>
+                </a>
+                <h6>azerbyjan</h6>
+
+            </div>
+            <div>
+                <a href="#" onclick="chosehtml(6)">
+                    <div class="flag turkey"></div>
+                </a>
+                <h6>turkey</h6>
+
+            </div>
+        </div>
+    </div>
+    <div class="turk-dynansty">
+        <div class="border-turkic">
+            <div class="title-turkic-impire">
+                <a href="#" name="turk_dynasty">
+                    <h2 class="title-dynasty">Turkic dynasty</h2>
+                </a>
+            </div>
+            <div class="container-circle">
+                <div>
+                    <div class="circle saljuk"></div>
+                    <h6>saljuk</h6>
+                </div>
+                <div>
+                    <div class="circle ghajar"></div>
+                    <h6>ghajar</h6>
+                </div>
+                <div>
+                    <div class="circle kharazm"></div>
+                    <h6>kharazm</h6>
+                </div>
+                <div>
+                    <div class="circle osman"></div>
+                    <h6>ottman</h6>
+                </div>
+                <div>
+                    <div class="circle safavid"></div>
+                    <h6>safavid</h6>
+                </div>
+                <div>
+                    <div class="circle timur"></div>
+                    <h6>timuried</h6>
+                </div>
+                <div>
+                    <div class="circle gokturk"></div>
+                    <h6>gokturk</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="turkic-important-people">
+        <h2><a href="" name="dynasty">Turkic-Important-people</a></h2>
+        <div class="row d-flex justify-content-center a">
+            <div class=" col-sm-8 col-12 col-lg-3 col-xl-3 col-xxl-2 col-md-5 m-3">
+                <div class="card-profile card">
+                    <img src="wallpaper/osman_1_profile.png" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">ottman-1</h4>
+                        <p class="card-text">
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:70%">70%</div>
+                        </div>
+                        <p>power</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:70%">70%</div>
+                        </div>
+                        <p>defence</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-8 col-12 col-lg-3 col-xl-3 col-xxl-2 col-md-5 m-3">
+                <div class="card-profile card">
+                    <img src="wallpaper/agha_mohammad_profile1.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">agha-mohammad-ghajar</h4>
+                        <p class="card-text">
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>power</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:95%">95%</div>
+                        </div>
+                        <p>defence</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-8 col-12 col-lg-3 col-xl-3 col-xxl-2 col-md-5 m-3">
+                <div class="card-profile card">
+                    <img src="wallpaper/Mendirman_Jaloliddin.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Jaloliddin</h4>
+                        <p class="card-text">
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:40%">40%</div>
+                        </div>
+                        <p>power</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:90%">90%</div>
+                        </div>
+                        <p>defence</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-8 col-12 col-lg-3 col-xl-3 col-xxl-2 col-md-5 m-3">
+                <div class="card-profile card">
+                    <img src="wallpaper/shah_abas_profile.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">shah_abas</h4>
+                        <p class="card-text">
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:90%">90%</div>
+                        </div>
+                        <p>power</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>defence</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-8 col-12 col-lg-3 col-xl-3 col-xxl-2 col-md-5 m-3">
+                <div class="card-profile card">
+                    <img src="wallpaper/alp_arsalan_profile.jpg" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Alp_arsalan</h4>
+                        <p class="card-text">
+
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>power</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:98%">98%</div>
+                        </div>
+                        <p>defence</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-8 col-12 col-lg-3 col-xl-3 col-xxl-2 col-md-5 m-3">
+                <div class="card-profile card">
+                    <img src="wallpaper/Emir-Timur-profile1.jpg" class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Timur</h4>
+                        <p class="card-text">
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>power</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>defence</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-8 col-12 col-lg-3 col-xl-3 col-xxl-2 col-md-5 m-3">
+                <div class="card-profile card">
+                    <img src="wallpaper/mohammad_fatih_profile.jpg" class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">mohammad_fatih</h4>
+                        <p class="card-text">
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>power</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>defence</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-8 col-12 col-lg-3 col-xl-3 col-xxl-2 col-md-5 m-3">
+                <div class="card-profile card">
+                    <img src="wallpaper/oguz_kaan.jpg" class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">oguz_khan</h4>
+                        <p class="card-text">
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>power</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>defence</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-8 col-12 col-lg-3 col-xl-3 col-xxl-2 col-md-5 m-3">
+                <div class="card-profile card">
+                    <img src="wallpaper/nader_shah_afshar_profile-1.jpg" class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">nader_shah_afshar</h4>
+                        <p class="card-text">
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>power</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                                style="width:100%">100%</div>
+                        </div>
+                        <p>defence</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="history">
+        <h3><a href="" name="history">History</a></h3>
+        <div class="title-history">
+            <p>the Turks have a rich and diverse history that spans across multiple regions and centuries. In fact, the
+                history of the Turks is so extensive and varied that it's an intricate tapestry of different cultures,
+                languages, and traditions.
+
+                The origins of the Turkic people date back to ancient Central Asia. The first known Turkic state was the
+                Göktürk Khaganate, established in the 6th century. Over time, various Turkic tribes and confederations
+                emerged, such as the Uighurs, the Seljuks, and the Ottomans. These groups played pivotal roles in
+                shaping the history of the regions they inhabited and beyond.
+
+                The Seljuk Empire, for instance, made significant advancements in science, art, and governance during
+                the medieval period. Later on, the Ottoman Empire rose to become a powerful and influential force,
+                leaving a lasting impact on the history and culture of the Middle East, Eastern Europe, and North
+                Africa.
+
+                The modern history of the Turkic people is marked by the establishment of nation-states such as Turkey,
+                Azerbaijan, Turkmenistan, Kazakhstan, and others. These nations have evolved into vibrant hubs of
+                culture, commerce, and innovation, showcasing the resilience and dynamism of the Turkic people.
+
+                Of course, this is just a brief overview, and there's so much more depth and nuance to the history of
+                the Turks. It's a fascinating subject that invites exploration and discovery, offering a glimpse into
+                the rich heritage and contributions of the Turkic peoples to the word</p>
+        </div>
+        <h3><a href="" name="culture">culture</a></h3>
+        <div class="title-history">
+            <p>Turks have a rich and diverse culture that spans across several countries, including Turkey, Azerbaijan,
+                Turkmenistan, and others. The Turkish culture is influenced by various factors, including historical
+                events, traditions, and religions.
+
+                One significant aspect of Turkish culture is its cuisine, which is known for its delicious dishes such
+                as kebabs, baklava, and Turkish tea. Turkish music, with its unique blend of traditional and modern
+                elements, is also highly regarded.
+
+                In terms of traditions, Turkish people place great importance on family values and hospitality. They
+                have a strong sense of community and often gather for celebrations and festivals. Traditional Turkish
+                arts, such as calligraphy, carpet weaving, and pottery, are also highly valued and appreciated.
+
+                Religion plays a significant role in Turkish culture, with the majority of Turks being Muslims. Mosques
+                are an integral part of the landscape, and religious practices and customs are observed throughout the
+                country.
+
+                Overall, Turkish culture is a vibrant and diverse tapestry that reflects the country's rich history and
+                influences from various civilizations.</p>
+        </div>
+        <h3><a href="" name="geo">Geography</a></h3>
+        <div class="title-history">
+            <img src="wallpaper/turkic-map.webp" class="rounded img-geo" width="70%" alt="">
+            <p>
+                The Turkic peoples are a collection of diverse ethnic groups of West, Central, East, and North Asia as
+                well as parts of Europe, who speak Turkic languages. According to historians and linguists, the
+                Proto-Turkic language originated in Central-East Asia, potentially in Altai-Sayan region, </p>
+        </div>
+    </div>
+    <div class="m-carou ">
+        <h2>Ogoz kan clans</h2>
+        <div class="container d-flex justify-content-center carou ">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <img src="wallpaper/Avsar.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Avsar</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="wallpaper/Akevli.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Akevli</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="wallpaper/Alayuntlu.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Alayuntlu</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Bugduz.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Bugduz</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Cavuldur.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Cavuldur</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Cepni.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Cepni</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Dodurga.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Dodurga</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Eymur.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Eymur</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Igdir.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Igdir</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Yiva.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Yiva</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Yuregir.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Yuregir</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Pecenek.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Pecenek</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Salur.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Salur</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Yazir.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Yazir</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Begdili.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Begdili</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Karaevli.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Karaevli</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Bayundur.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">Bayundur</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="wallpaper/Bayat.png" alt="Los Angeles" class="d-block img-car">
+                        <div class="carousel-caption d-flex">
+                            <h3 class="text-black">bayat</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="wallpaper/Kayi.png" alt="Chicago" class="d-block img-car">
+                        <div class="carousel-caption  d-flex">
+                            <h3 class="text-black">kayi</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="wallpaper/Kinik.png" alt="New York" class="d-block img-car">
+                        <div class="carousel-caption  d-flex">
+                            <h3 class="text-black">KIinik</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer class=" py-4 flex-shrink-0 ">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <img src="wallpaper/icon.png" width="70px" alt="">
+                    <p>the turkic people are the best in the world</p>
+                    <p>they have many awards</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">linq</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#history">history</a></li>
+                        <li><a href="#culture">culture</a></li>
+                        <li><a href="#geo">geo</a></li>
+                        <li><a href="#dynasty">dynansty</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">linq</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">flag</a></li>
+                        <li><a href="#">important_turkic_profile</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">follow us!</h5>
+                    <p class="small wheat">+989368153204</p>
+                    <p class="small wheat">traxtur309</p>
+                    <p class="small wheat">twit</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+
+</script>
+
+</html>
